@@ -63,7 +63,7 @@ def main():
 
         try:
             while len(posts) < MAX_POSTS:
-                print(f"fetching posts (page: {len(posts) // 100})")
+                print(f"fetching posts... (collected: {len(posts)})")
                 params = models.AppBskyFeedSearchPosts.Params(
                     q=topic, cursor=cursor, limit=100
                 )
