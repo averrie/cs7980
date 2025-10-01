@@ -31,7 +31,7 @@ TOPICS = [
     "National Security",
 ]
 
-#  max number of posts to retrieve for each topic
+# max number of posts to retrieve for each topic
 MAX_POSTS = 2000
 
 DATASET_DIR = "dataset"
