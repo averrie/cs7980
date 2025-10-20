@@ -1,3 +1,10 @@
 **/dataset/
 
+.history/
 .env
+.env.*
+.env_*
+
+**/__pycache__/
+**/.DS_Store
+*.pyc
