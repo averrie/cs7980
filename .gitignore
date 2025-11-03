@@ -1,0 +1,5 @@
+truthsocial/
+bluesky/
+.history/
+*.npy
+*.tsv
